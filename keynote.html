@@ -1,0 +1,42 @@
+<head>
+    <title>The Science of Sound</title>
+    <link rel="stylesheet" href="keynote.css">
+    <link rel="stylesheet" href="second-video.css"> <!-- Link to the second CSS file -->
+</head>
+
+<h1>Keynote</h1>
+
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="keynote.html" class="active">Keynote</a></li>
+            <li><a href="chapters.html">Chapters</a></li>
+            
+            <li><a href="photos.html">Photo Gallery</a></li>
+            <li><a href="discover.html">Discover</a></li>
+        </ul>
+    </nav>
+
+    
+
+    <!-- First Video -->
+    <div class="video-wrapper">
+        <video class="first-video" autoplay muted loop controls>
+            <source src="keynote.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    
+
+    <script>
+        window.addEventListener("scroll", function () {
+            const scrollPosition = window.scrollY; // Get the vertical scroll position
+            const zoomLevel = 100 + scrollPosition * 0.1; // Adjust zoom level (tweak multiplier as needed)
+            document.body.style.backgroundSize = `${zoomLevel}%`; // Apply zoom effect
+        });
+    </script>
+
+</body>

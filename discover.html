@@ -1,0 +1,40 @@
+<head>
+    <title>The Science of Sound</title>
+    <link rel="stylesheet" href="discover.css">
+   
+</head>
+
+<h1>Discover</h1>
+
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="keynote.html" >Keynote</a></li>
+            <li><a href="chapters.html">Chapters</a></li>
+            
+            <li><a href="photos.html">Photo Gallery</a></li>
+            <li><a href="discover.html"class="active">Discover</a></li>
+        </ul>
+    </nav>
+
+    
+
+    <!-- First Video -->
+    <video class="first-video" width="640" height="360" autoplay muted loop>
+        <source src="Class 8 project screen saver.mov" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    
+
+    <script>
+        window.addEventListener("scroll", function () {
+            const scrollPosition = window.scrollY; // Get the vertical scroll position
+            const zoomLevel = 100 + scrollPosition * 0.1; // Adjust zoom level (tweak multiplier as needed)
+            document.body.style.backgroundSize = `${zoomLevel}%`; // Apply zoom effect
+        });
+    </script>
+
+</body>
