@@ -1,0 +1,98 @@
+body {
+    font-family: "futura";
+    background-image: url('acousticsound\ wallpaper/acousticsound wallpaper.1.jpeg');
+    margin-left: 0px;
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    background-size: 100%; /* Start at 100% */
+    background-attachment: fixed; /* Parallax effect */
+    background-position: center;
+    height: 300vh; /* Make the page scrollable */
+    transition: background-size 0.1s linear; /* Smooth zoom effect */
+    animation: zoomIn 10s ease-in-out forwards; /* Add zoom-in animation */
+    
+}
+
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+}
+
+
+.container {
+    display: grid;
+    
+    gap: 20px; /* Space between grid items */
+    justify-content: center; /* Center the grid horizontally */
+    align-items: center; /* Center the grid vertically */
+    margin-top: 50px; /* Adjust margin as needed */
+    margin-left: 50px;
+    margin-right: 50px;
+    z-index: -1000;
+
+}
+
+.container img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0; /* Remove unnecessary margins */
+    position: relative; /* Remove invalid 'center' value */
+    z-index: -1000; /* Ensure images are above the background */
+    color: rgba(255, 255, 255, 0.0); /* Semi-transparent text color */
+    opacity: 0; /* Start hidden */
+    animation: fadeIn2 2s ease-in-out forwards; /* Fade in smoothly */
+
+}
+
+.navbar{
+    text-decoration: none;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-family: Futura;
+    font-weight: 100;
+    text-align: center;
+    font-size: 60px;
+    
+    margin-top: 0px; /* Remove unnecessary margins */
+    position: fixed; /* Keep the element fixed while scrolling */
+    top: 300px; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for the element's size */
+    z-index: 1000; /* Ensure it stays above other elements */
+    margin-left: 0px; /* Remove unnecessary margins */
+    margin-right: 0px; /* Remove unnecessary margins */
+   
+     /* Prevent overflow if the text is too long */
+    text-overflow: ellipsis; /* Optional: Add ellipsis if the text overflows */
+    opacity: 0; /* Start hidden */
+    animation: fadeIn 2s ease-in-out forwards; /* Fade in smoothly */
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 1; /* Start fully hidden */
+    }
+    50% {
+        opacity: 1; /* Half visible */
+    }
+    100% {
+        opacity: 0; /* Fully visible */
+    }
+}
+
+@keyframes fadeIn2 {
+    0% {
+        opacity: 0; /* Start fully hidden */
+    }
+    90% {
+        opacity: 0; /* Half visible */
+    }
+    100% {
+        opacity: 1; /* Fully visible */
+    }
+}
