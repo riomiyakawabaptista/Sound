@@ -1,0 +1,166 @@
+body {
+    font-family: "futura";
+    background-image: url('pexels-nay-shine-200024357-14463596.jpg');
+    margin-left: 0px;
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    background-size: 100%; /* Start at 100% */
+    background-attachment: fixed; /* Parallax effect */
+    background-position: center;
+    height: 300vh; /* Make the page scrollable */
+    transition: background-size 0.1s linear; /* Smooth zoom effect */
+    animation: zoomIn 10s ease-in-out forwards; /* Add zoom-in animation */
+    
+}
+
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centers nav items horizontally */
+    align-items: center; /* Centers nav items vertically */
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: rgba(66, 70, 74, 0.8);
+    padding: 0px;
+    margin: -0px;
+    overflow: hidden;
+    align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a.active {
+    background-color: rgba(255, 255, 255, 0); /* Highlight background */
+    color: rgb(156, 142, 140); /* Highlight text color */
+    font-weight: ; /* Optional: Make the text bold */
+}
+
+.navbar a:hover {
+    background-color: rgb(35, 37, 39);
+}
+
+.navbar li {
+    float: left;
+    text-align: center;
+}
+
+/* Remove dropdown styles */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgba(66, 70, 74, 0.9);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 150px;
+    z-index: 10000;
+}
+
+.dropdown-menu li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dropdown-menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.dropdown-menu li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+main {
+    margin-left: 
+}
+
+h1 {
+    color: rgba(255, 255, 255, 0.9);
+    margin-top: 80px;
+    text-align: center;
+    font-size: 70px;
+    font-family: Futura;
+    font-weight: 100;
+    margin-left: -10;
+}
+
+h2 {
+    font-size: 15px;
+    color: rgb(200, 200, 200);
+    text-align: center;
+    font-weight: 100;
+}
+
+p {
+    color: whitesmoke;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-top: 40px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+
+img {
+    width: 400px;
+    margin-top: 150px;
+    margin-left: -420px;
+    position: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between grid items */
+    justify-content: center; /* Center the grid horizontally */
+    align-items: center; /* Center the grid vertically */
+    margin-top: 100px; /* Adjust margin as needed */
+    margin-left: 100px;
+    margin-right: 100px;
+    z-index: -1000;
+
+}
+
+.container img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0; /* Remove unnecessary margins */
+    position: relative; /* Remove invalid 'center' value */
+    z-index: -1000; /* Ensure images are above the background */
+}
+
+
+
+h3 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+
