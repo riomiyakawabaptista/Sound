@@ -1,0 +1,244 @@
+body {
+    font-family: "futura";
+    background-image: url('splash photo.jpeg');
+    margin-left: 0px;
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    background-size: 100%; /* Start at 100% */
+    background-position: center;
+    background-attachment: fixed; /* Parallax effect */
+    height: 300vh; /* Make the page scrollable */
+    transition: background-size 0.3s linear; /* Smooth zoom effect */
+    z-index: 1000; /* Ensure body is behind other elements */
+    position: relative; /* Required for z-index to work */
+    animation: zoomIn 10s ease-in-out forwards; /* Add zoom-in animation */
+    overflow: hidden;
+
+
+
+}
+@keyframes zoomIn {
+    0% {
+        background-size: 100%; /* Initial size */
+    }
+    100% {
+        background-size: 150%; /* Zoom in slightly */
+    }
+
+}
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centers nav items horizontally */
+    align-items: center; /* Centers nav items vertically */
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: rgba(66, 70, 74, 0.8);
+    padding: 0px;
+    margin: -0px;
+    overflow: hidden;
+    align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a.active {
+    background-color: rgba(255, 255, 255, 0); /* Highlight background */
+    color: rgb(156, 142, 140); /* Highlight text color */
+    font-weight: ; /* Optional: Make the text bold */
+}
+
+.navbar a:hover {
+    background-color: rgb(35, 37, 39);
+}
+
+.navbar li {
+    float: left;
+    text-align: center;
+}
+
+/* Remove dropdown styles */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgba(66, 70, 74, 0.9);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 150px;
+    z-index: 1000;
+}
+
+.dropdown-menu li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dropdown-menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.dropdown-menu li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+main {
+    margin-left: 40px;
+}
+
+h1{
+    color: white;
+    font-family: Futura;
+    font-weight: 100;
+    text-align: center;
+    font-size: 70px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: Adds a shadow effect */
+    /* Smooth zoom effect */
+    margin-top: 120px; /* Remove unnecessary margins */
+    position: fixed; /* Keep the element fixed while scrolling */
+    top: 0; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for the element's size */
+    z-index: 1; /* Ensure it stays above other elements */
+    margin-left: 0px; /* Remove unnecessary margins */
+    margin-right: 0px; /* Remove unnecessary margins */
+    white-space: nowrap; /* Prevent text from wrapping to the next line */
+    overflow: hidden; /* Prevent overflow if the text is too long */
+    text-overflow: ellipsis; /* Optional: Add ellipsis if the text overflows */
+    opacity: 0; /* Start hidden */
+    animation: fadeIn 4s ease-in-out forwards; /* Fade in smoothly */
+}
+
+h2{
+    color: white;
+    font-family: Futura;
+    font-weight: 100;
+    text-align: center;
+    font-size: 15px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: Adds a shadow effect */
+   
+    margin: 0; /* Remove unnecessary margins */
+    
+    position: fixed; /* Keep the element fixed while scrolling */
+    top: 30%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for the element's size */
+    z-index: 1; /* Ensure it stays above other elements */
+    opacity: 0; /* Start hidden */
+    animation: fadeIn 1s ease-in-out forwards; /* Fade in smoothly */
+}
+
+p{
+    color: white;
+    font-family: Futura;
+    font-weight: 100;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: Adds a shadow effect */
+   
+    margin: 0; /* Remove unnecessary margins */
+    position: fixed; /* Keep the element fixed while scrolling */
+    top: 60%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for the element's size */
+    z-index: 1; /* Ensure it stays above other elements */
+    opacity: 0; /* Start hidden */
+    animation: fadeIn 1s ease-in-out forwards; /* Fade in smoothly */
+}
+
+.text-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    text-align: center; /* Center text inside the <p> */
+
+}
+
+.text-container3 {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    text-align: center; /* Center text inside the <p> */
+
+}
+
+.text-container1 {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    text-align: center; /* Center text inside the <p> */
+
+}
+
+.text-container2 {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    text-align: center; /* Center text inside the <p> */
+
+}
+
+img {
+    width: 10000px;  
+    margin-top: -5000px;
+    margin-left: auto;
+    margin-bottom: 0px;
+    margin-right: auto;
+    display: block; /* Required for margin auto to work */
+    opacity: 50%;
+    z-index: -1;
+    position: relative; /* Required for z-index to work */
+    transition: opacity 5s ease-in-out; /* Smooth transition for opacity */
+   
+}
+
+h3 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+#changing-text {
+    opacity: 1; /* Fully visible by default */
+    transition: opacity 5s ease-in-out; /* Smooth fade effect */
+}
+.hidden {
+    opacity: 0; /* Fully hidden */
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1; /* Fully visible */
+    }
+}
+
+
