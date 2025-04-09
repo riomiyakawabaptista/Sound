@@ -21,29 +21,7 @@
 
     
 
-    <!-- First Video -->
-    <video class="first-video" width="640" height="360" autoplay muted loop>
-        <source src="https://www.dropbox.com/scl/fi/b4mpqxmbyqw8t9o9fxypi/keynote-for-website.mp4?rlkey=ibt5khwo3nuxahhhzwa0k0gud&st=bf4z9ktlTo use a Dropbox link for your video in the `<video>` tag, you need to modify the Dropbox link to make it a **direct download link**. Here's how you can do it:
-
-### Steps:
-1. **Modify the Dropbox Link**:
-   - Replace the `?dl=0` at the end of the Dropbox link with `?raw=1`. This will make the link a direct download link.
-
-   Example:
-   Original link:
-   ```
-   https://www.dropbox.com/scl/fi/c0b9bkc1ird5qyx0zcvy3/keynote.mp4?rlkey=the06ioesbsxu35xeelv57r4x&st=4bcryshb&dl=0
-   ```
-   Modified link:
-   ```
-   https://www.dropbox.com/scl/fi/c0b9bkc1ird5qyx0zcvy3/keynote.mp4?rlkey=the06ioesbsxu35xeelv57r4x&st=4bcryshb&raw=1
-   ```
-
-2. **Update Your HTML**:
-   Replace the `src` attribute of the `<source>` tag in your `<video>` element with the modified Dropbox link.
-
-### Updated Code:
-```html
+    
 <video class="first-video" width="640" height="360" autoplay muted loop>
     <source src="https://www.dropbox.com/scl/fi/c0b9bkc1ird5qyx0zcvy3/keynote.mp4?rlkey=the06ioesbsxu35xeelv57r4x&st=4bcryshb&raw=1" type="video/mp4">
     Your browser does not support the video tag.
