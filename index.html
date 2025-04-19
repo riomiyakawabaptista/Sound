@@ -9,8 +9,10 @@
         document.body.style.backgroundSize = `${zoomLevel}%`; // Apply zoom effect
     });
 
-    // Redirect to mobile version if screen width is less than or equal to 768px
-    if (window.innerWidth <= 768) {
+    // Check screen width and device pixel ratio for Retina displays
+    const isMobile = window.innerWidth / window.devicePixelRatio <= 768;
+
+    if (isMobile) {
         window.location.href = "mobile.html";
     }
 </script>
