@@ -121,7 +121,7 @@ h1{
     font-size: clamp(24px, 8vw, 80px); /* Responsive font size */
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: Adds a shadow effect */
     /* Smooth zoom effect */
-    margin-top: 120px; /* Remove unnecessary margins */
+    margin-top: 220px; /* Remove unnecessary margins */
     position: fixed; /* Keep the element fixed while scrolling */
     top: 0; /* Center vertically */
     left: 50%; /* Center horizontally */
