@@ -152,7 +152,13 @@ p {
     font-weight: 500;
     line-height: 25px;
 }
+@media (max-device-width: 770px) {
+    p{
+        font-size: 3vw; /* Responsive font size */
+    }
 
+    
+}
 
 img {
     width: 400px;
