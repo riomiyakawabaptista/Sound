@@ -155,6 +155,9 @@ p {
 @media (max-device-width: 770px) {
     p{
         font-size: 3vw; /* Responsive font size */
+        line-height: 1.0;
+        
+    
     }
 
     
