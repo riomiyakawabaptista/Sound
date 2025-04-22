@@ -56,7 +56,7 @@ body {
     text-align: center;
 }
 
-@media (max-width: 500px) {
+@media (max-device-width: 500px) {
     .navbar a {
         padding: 3vw;
         font-size: 3vw; /* Responsive font size */
@@ -143,7 +143,7 @@ h1{
     opacity: 0; /* Start hidden */
     animation: fadeIn 4s ease-in-out forwards; /* Fade in smoothly */
 }
-@media (max-width: 770px) {
+@media (max-device-width: 770px) {
     h1{
         font-size: 8vw; /* Responsive font size */
         top: 3%; /* Center vertically */
@@ -170,7 +170,7 @@ h2{
     opacity: 0; /* Start hidden */
     animation: fadeIn 1s ease-in-out forwards; /* Fade in smoothly */
 }
-@media (max-width: 770px) {
+@media (max-device-width: 770px) {
     h2{
         font-size: 3vw; /* Responsive font size */
     }
@@ -196,7 +196,7 @@ p{
     animation: fadeIn 1s ease-in-out forwards; /* Fade in smoothly */
 }
 
-@media (max-width: 770px) {
+@media (max-device-width: 770px) {
     p{
         font-size: 3vw; /* Responsive font size */
     }
