@@ -159,13 +159,12 @@ h1 {
 }
 
 @media (max-device-width: 770px) {
-    h1{
+    h1 {
         font-size: 8vw; /* Responsive font size */
-        top: 30%; /* Center vertically */
-        margin-top: 80px;
+        position: relative; /* Use relative positioning */
+        margin-top: 20vh; /* Adjust this value to move it down */
+        text-align: center;
     }
-
-    
 }
 
 @keyframes fadeIn3 {
