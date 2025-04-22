@@ -162,7 +162,7 @@ h1 {
     h1 {
         font-size: 8vw; /* Responsive font size */
         position: relative; /* Use relative positioning */
-        margin-top: 20vh; /* Adjust this value to move it down */
+        margin-top: 10vh; /* Adjust this value to move it down */
         text-align: center;
     }
 }
