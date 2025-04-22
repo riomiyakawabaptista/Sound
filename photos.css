@@ -133,7 +133,9 @@ h1 {
 @media (max-device-width: 770px) {
     h1{
         font-size: 8vw; /* Responsive font size */
-        top: 10%; /* Center vertically */
+        position: relative; /* Use relative positioning */
+        margin-top: 10vh; /* Adjust this value to move it down */
+        text-align: center;
     }
 
     
