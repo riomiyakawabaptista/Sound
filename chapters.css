@@ -12,7 +12,19 @@ body {
     animation: zoomIn 10s ease-in-out forwards; /* Add zoom-in animation */
     
 }
+@media (max-device-width: 500px) {
+    body {
+        background: linear-gradient(to top, rgba(233, 206, 6, 0.659) 68.49%, #ff4e02); /* Gradient
+        zoom: 100%; /* Reset zoom for mobile */
+        background-size: cover; /* Ensures the background covers the viewport */
+        background-position: center; /* Keeps the background centered */
+        background-attachment: scroll; /* Disables fixed attachment for mobile */
+        
+        
+    }
 
+    
+}
 
 .navbar {
     width: 100%;
@@ -43,7 +55,14 @@ body {
     display: block;
     text-align: center;
 }
+@media (max-device-width: 500px) {
+    .navbar a {
+        padding: 3vw;
+        font-size: 3vw; /* Responsive font size */
+    }
 
+    
+}
 .navbar a.active {
     background-color: rgba(255, 255, 255, 0); /* Highlight background */
     color: rgb(156, 142, 140); /* Highlight text color */
@@ -109,7 +128,14 @@ h1 {
     font-weight: 100;
     margin-left: -10;
 }
-
+@media (max-device-width: 770px) {
+    h1 {
+        font-size: 8vw; /* Responsive font size */
+        position: relative; /* Use relative positioning */
+        margin-top: 10vh; /* Adjust this value to move it down */
+        text-align: center;
+    }
+}
 h2 {
     font-size: 15px;
     color: rgb(200, 200, 200);
