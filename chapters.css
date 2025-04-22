@@ -14,7 +14,7 @@ body {
 }
 @media (max-device-width: 500px) {
     body {
-        background: linear-gradient(to top, rgba(233, 206, 6, 0.659) 68.49%, #ff4e02); /* Gradient
+        background: linear-gradient(to top, rgba(0, 24, 37, 0.66) 79.41%, #ffd400); /* Gradient
         zoom: 100%; /* Reset zoom for mobile */
         background-size: cover; /* Ensures the background covers the viewport */
         background-position: center; /* Keeps the background centered */
