@@ -23,7 +23,7 @@ body {
         background-position: center; /* Keeps the background centered */
         background-attachment: scroll; /* Disables fixed attachment for mobile */
         animation: none; /* Disable animation on mobile */
-        
+        transition: none; /* Disables smooth zoom effect */
     }
 
     
