@@ -162,6 +162,7 @@ h1 {
     h1{
         font-size: 8vw; /* Responsive font size */
         top: 30%; /* Center vertically */
+        margin-top: 80px;
     }
 
     
