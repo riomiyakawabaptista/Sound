@@ -19,7 +19,7 @@ body {
 }
 @media (max-device-width: 500px) {
     body {
-        background-image: url(IMG_C34C6128E144-1.jpeg); /* Change image for mobile */
+        
         zoom: 100%; /* Reset zoom for mobile */
         background-size: cover; /* Ensures the background covers the viewport */
         background-position: center; /* Keeps the background centered */
