@@ -45,22 +45,11 @@
             const zoomLevel = 100 + scrollPosition * 0.1; // Adjust zoom level (tweak multiplier as needed)
             document.body.style.backgroundSize = `${zoomLevel}%`; // Apply zoom effect
         });
-
-        
-    </script>
-    <script>
-    function checkScreenSize() {
-        // Redirect to mobile version if screen width is less than or equal to 768px
+    // Redirect to mobile version if screen width is less than or equal to 768px
         if (window.innerWidth >= 769) {
             window.location.href = "index.html";
         }
-    }
-
-    // Check screen size on page load
-    checkScreenSize();
-
-    // Check screen size whenever the window is resized
-    window.addEventListener("resize", checkScreenSize);
+        
     </script>
-
+    
 </body>
