@@ -12,7 +12,19 @@ body {
     animation: zoomIn 10s ease-in-out forwards; /* Add zoom-in animation */
     
 }
+@media (max-device-width: 500px) {
+    body {
+        background: linear-gradient(to top, rgba(0, 0, 13, 1) 61.76%, rgba(255, 78, 3, 0)); /* Gradient
+        zoom: 100%; /* Reset zoom for mobile */
+        background-size: cover; /* Ensures the background covers the viewport */
+        background-position: center; /* Keeps the background centered */
+        background-attachment: scroll; /* Disables fixed attachment for mobile */
+        
+        
+    }
 
+    
+}
 
 .center-content {
     display: flex;
