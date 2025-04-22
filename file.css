@@ -19,7 +19,7 @@ body {
 }
 @media (max-device-width: 500px) {
     body {
-        background: linear-gradient(to right, #000000, #5d67b2)); /* Gradient from left to right */
+        background: linear-gradient(to top, #000000, #5d67b2); /* Gradient from left to right */
         zoom: 100%; /* Reset zoom for mobile */
         background-size: cover; /* Ensures the background covers the viewport */
         background-position: center; /* Keeps the background centered */
