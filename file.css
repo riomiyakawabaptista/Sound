@@ -151,6 +151,14 @@ h1{
 
     
 }
+@media (max-width: 770px) {
+    h1{
+        font-size: 8vw; /* Responsive font size */
+        top: 10%; /* Center vertically */
+    }
+
+    
+}
 
 h2{
     color: white;
@@ -177,6 +185,13 @@ h2{
 
     
 }
+@media (max-width: 770px) {
+    h2{
+        font-size: 3vw; /* Responsive font size */
+    }
+
+    
+}
 
 p{
     color: white;
@@ -197,6 +212,13 @@ p{
 }
 
 @media (max-device-width: 770px) {
+    p{
+        font-size: 3vw; /* Responsive font size */
+    }
+
+    
+}
+@media (max-width: 770px) {
     p{
         font-size: 3vw; /* Responsive font size */
     }
