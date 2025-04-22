@@ -46,10 +46,21 @@
             document.body.style.backgroundSize = `${zoomLevel}%`; // Apply zoom effect
         });
 
+        
+    </script>
+    <script>
+    function checkScreenSize() {
         // Redirect to mobile version if screen width is less than or equal to 768px
-        if (window.innerWidth >= 769) {
+        if (window.innerWidth <= 768) {
             window.location.href = "mobile.html";
         }
+    }
+
+    // Check screen size on page load
+    checkScreenSize();
+
+    // Check screen size whenever the window is resized
+    window.addEventListener("resize", checkScreenSize);
     </script>
 
 </body>
