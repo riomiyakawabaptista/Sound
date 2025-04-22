@@ -150,9 +150,16 @@ p {
     margin-right: 50px;
     margin-top: 40px;
     font-weight: 500;
-    line-height: 25px;
+    line-height: 30px;
 }
-
+@media (max-device-width: 770px) {
+    p {
+        font-size: 3vw; /* Responsive font size */
+        position: relative; /* Use relative positioning */
+        
+        text-align: center;
+    }
+}
 
 img {
     width: 400px;
