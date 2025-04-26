@@ -20,6 +20,17 @@
         }
     };
 </script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+        // Check if the user is on an Android device
+        if (/android/i.test(userAgent)) {
+            // Redirect to a custom page for Android users
+            window.location.href = "/android-not-supported.html";
+        }
+    });
+</script>
 <body>
 
     <nav class="navbar">
