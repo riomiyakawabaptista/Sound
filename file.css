@@ -1,7 +1,16 @@
+@font-face {
+    font-family: 'futura';
+    src: 
+         url('futura.woff') format('woff'),
+         url('futura.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
 body {
-    font-family: "futura";
-    src: url('futura.ttf') format('truetype');
-         url('futura.woff') format('woff');
+    
         
     background-image: url('splash photo.jpeg');
     margin-left: 0px;
