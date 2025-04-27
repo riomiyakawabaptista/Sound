@@ -1,6 +1,8 @@
 body {
     font-family: "futura";
     src: url('futura.ttf') format('truetype');
+         url('futura.woff') format('woff');
+        
     background-image: url('splash photo.jpeg');
     margin-left: 0px;
     margin-top: 30px;
