@@ -14,7 +14,7 @@ body {
 }
 @media (max-device-width: 500px) {
     body {
-        background: linear-gradient(to top, rgba(0, 24, 37, 0.66) 79.41%, #ffd400); /* Gradient
+        background: linear-gradient(to top, rgba(208, 213, 255, 0.48) 44.54%, #010021);
         zoom: 100%; /* Reset zoom for mobile */
         background-size: cover; /* Ensures the background covers the viewport */
         background-position: center; /* Keeps the background centered */
@@ -127,6 +127,11 @@ h1 {
     font-family: Futura;
     font-weight: 100;
     margin-left: -10;
+    margin-top: 120px; /* Remove unnecessary margins */
+    position: fixed; /* Keep the element fixed while scrolling */
+    top: 1%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for the element's size */
 }
 @media (max-device-width: 770px) {
     h1 {
@@ -147,11 +152,14 @@ h2 {
 p {
     color: whitesmoke;
     text-align: center;
-    margin-left: 30px;
-    margin-right: 50px;
-    margin-top: 40px;
+    
+    
     font-weight: 500;
     line-height: 35px;
+    position: fixed; /* Keep the element fixed while scrolling */
+    margin-right:15vw;
+    margin-left:15vw;
+    margin-top: 40vw
 }
 @media (max-device-width: 770px) {
     p {
