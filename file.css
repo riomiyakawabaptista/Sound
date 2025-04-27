@@ -24,14 +24,20 @@ body {
 }
 @media (max-device-width: 500px) {
     body {
-        background: linear-gradient(to top, rgba(208, 213, 255, 0.48) 68.49%, #010021); /* Gradient
-        zoom: 100%; /* Reset zoom for mobile */
-        background-size: cover; /* Ensures the background covers the viewport */
-        background-position: center; /* Keeps the background centered */
-        background-attachment: scroll; /* Disables fixed attachment for mobile */
-        
-        
+        background: none; /* Remove the background from the body */
     }
+
+    body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to top, rgba(208, 213, 255, 0.48) 44.54%, #010021);
+        z-index: -1000; /* Place it behind other content */
+    }
+}
 
     
 }
