@@ -12,7 +12,7 @@ body {
     animation: zoomIn 10s ease-in-out forwards; /* Add zoom-in animation */
     
 }
-@media (max-device-width: 500px) {
+@media (max-device-width: 1100px) {
     body {
         background: linear-gradient(to top, rgba(0, 24, 37, 0.66) 79.41%, #ffd400); /* Gradient
         zoom: 100%; /* Reset zoom for mobile */

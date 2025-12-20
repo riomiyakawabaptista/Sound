@@ -12,7 +12,7 @@ body {
     animation: zoomIn 10s ease-in-out forwards; /* Add zoom-in animation */
     
 }
-@media (max-device-width: 500px) {
+@media (max-device-width: 1100px) {
     body {
         background: none; /* Remove the background from the body */
     }

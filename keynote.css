@@ -15,12 +15,13 @@ body {
     position: relative; /* Required for z-index to work */
     animation: zoomIn 20s ease-in-out forwards; /* Add zoom-in animation */
     overflow: hidden;
+    
 
 
 
 }
 
-@media (max-device-width: 500px) {
+@media (max-device-width: 1100px) {
     body {
         background: linear-gradient(to top, rgba(233, 206, 6, 0.659) 68.49%, #ff4e02); /* Gradient
         zoom: 100%; /* Reset zoom for mobile */
